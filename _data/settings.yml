@@ -1,0 +1,7 @@
+#--------
+# main_nav Items
+
+main_nav:
+- {name: محصولات, url: ''}
+- {name: تماس با ما, url: ''}
+- {name: سایر محصولات, url: ''}
