@@ -472,6 +472,15 @@ body {
   #section1 .section_content_desktop {
     display: none; } }
 @media only screen and (min-width: 751px) {
+  .quote_container h1 {
+    padding-top: 55px;
+    font-size: 28px; }
+  .quote_container p {
+    width: 75%;
+    line-height: 30px;
+    font-size: 20px;
+    color: #2c2c2c; }
+
   #section1 {
     background: url("../img/BG/section1_desktop.jpg");
     background-position: center;
@@ -499,22 +508,34 @@ body {
       #section1 .section_content_desktop #buy_me {
         padding: 0; }
     #section1 .aw_logo {
-      width: 100px; }
+      width: 150px;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      padding: 0 0 15px 15px;
+      cursor: pointer; }
       #section1 .aw_logo img {
-        width: 100%;
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        padding: 0 0 10px 10px; }
+        width: 100%; }
 
-  .quote_container h1 {
-    padding-top: 55px;
-    font-size: 28px; }
-  .quote_container p {
-    width: 75%;
-    line-height: 30px;
-    font-size: 20px;
-    color: #2c2c2c; } }
+  #section2 {
+    background: url("../img/BG/bg2.jpg"); }
+    #section2 .watch_body {
+      display: none; }
+
+  #section1,
+  #section2,
+  #section3,
+  #section4,
+  #section5,
+  #section6,
+  #section8,
+  #section9 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+    width: 100%; } }
 .main_footer {
   height: 400px;
   width: 100%;
