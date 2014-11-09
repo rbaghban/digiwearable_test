@@ -231,7 +231,7 @@ body {
 
 #main_header {
   height: 3.4375rem;
-  background: #ebebeb;
+  background: #fff;
   position: relative;
   border-bottom-color: #e5e5e5;
   border-bottom-style: solid;
@@ -473,7 +473,7 @@ body {
     display: none; } }
 @media only screen and (min-width: 751px) {
   #section1 {
-    background: url("../img/BG/Section1_desktop.jpg");
+    background: url("../img/BG/section1_desktop.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -483,7 +483,8 @@ body {
     #section1 .section_content_mobile {
       display: none; }
     #section1 .section_content_desktop {
-      width: 50%; }
+      width: 50%;
+      padding-top: 4rem; }
       #section1 .section_content_desktop .moto360_logo_black {
         margin: 0 auto;
         padding-top: 3em;
@@ -497,6 +498,14 @@ body {
         padding: 40px 0; }
       #section1 .section_content_desktop #buy_me {
         padding: 0; }
+    #section1 .aw_logo {
+      width: 100px; }
+      #section1 .aw_logo img {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        padding: 0 0 10px 10px; }
 
   .quote_container h1 {
     padding-top: 55px;
