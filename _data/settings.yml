@@ -5,3 +5,8 @@ main_nav:
 - {name: محصولات, url: ''}
 - {name: تماس با ما, url: ''}
 - {name: سایر محصولات, url: ''}
+
+purchase_menu_nav:
+- {name: مشخصات فنی, url: '#'}
+- {name: وبلاگ, url: '#'}
+- {name: گارانتی, url: '#'}
