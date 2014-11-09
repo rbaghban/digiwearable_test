@@ -254,18 +254,31 @@ $desktop: "(min-width: 751px)"
 		.section_content_desktop
 			display: none
 
+// --------------------------------------  For Desktop
 @media only screen and #{$desktop}
 
 
 	.quote_container
+		width: 260px
+		direction: rtl
+		position: absolute
+		top: 15%
+		right: 90px
+
 		h1
-			padding-top: 55px
-			font-size: 28px
-		p
-			width: 75%
-			line-height: 30px
-			font-size: 20px
 			color: #2c2c2c
+			margin: 0
+			padding-top: 55px
+			padding-bottom: 15px
+			font-size: 22px
+			text-align: right
+		p
+			text-align: right
+			margin: auto
+			line-height: 24px
+			font-size: 16px
+			color: #2c2c2c
+
 	#section1
 		background: url('../img/BG/section1_desktop.jpg')
 		background-position: center
